@@ -146,6 +146,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ERP.BLL\ERP.BLL.csproj">
+      <Project>{9d087bf7-8b75-4604-bdec-1fe5e175d915}</Project>
+      <Name>ERP.BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ERP.Core.PCL\ERP.Core.PCL.csproj">
       <Project>{0baf96bc-1af2-488d-948d-42227bf08d63}</Project>
       <Name>ERP.Core.PCL</Name>
